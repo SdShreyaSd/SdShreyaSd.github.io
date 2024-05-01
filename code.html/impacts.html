@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniproject</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="impacts.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,700;1,300;1,400;1,500&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="b1">
+    <section class="header" >
+        <nav>
+            <br>
+            <br>
+          <a href="home.html"></a>
+            <div class="nav-links" id="nav-links">
+               <!--<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>-->
+                <ul>
+                    <li> <a href="home.html">HOME</a></li>
+                    <li> <a href="Resources.html">RESOURCES</a></li>
+                    <li> <a href="https://www.google.com/search?sca_esv=562336811&rlz=1C1SQJL_enIN865IN865&q=news+on+carbon+footprint&tbm=nws&source=lnms&sa=X&ved=2ahUKEwj8gorqwo6BAxWoRmwGHf4bACcQ0pQJegQICRAB&biw=1280&bih=561&dpr=1.5">NEWS</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="textbox">
+            <h1>IMPACTS</h1>
+            <p>Impact of carbon emissions on your lifestyle and environment</p>
+            <a href="page3.html" class="btn1">Take a survey on carbon footprint</a>
+        </div>
+    </section>
+    <section class="Mine">
+    <section class="info" id="I2">
+        <h1 style="text-align: center;">Brief about its impacts</h1><br>
+        <p style="text-align: center;">A carbon footprint measures the total greenhouse gas emissions, primarily carbon dioxide, resulting from human activities. It significantly contributes to climate change, leading to rising temperatures, sea level rise, and extreme weather events. This footprint influences ecological balance, impacting biodiversity, and depletes natural resources. Businesses face reputational risks, regulatory pressures, and operational costs due to their carbon emissions. Reducing carbon footprints through sustainable practices is vital to mitigate climate change, conserve resources, and ensure a healthier planet for present and future generations.</p>
+    </section>
+
+    <section class="info" >
+        <div class="row">
+            <div class="info-col">
+                <h1>Effects of carbon emission on environment  </h1>
+                <p>Biodiversity loss, coral bleaching, forest degradation, and water system disruptions are widespread. Ocean acidification harms marine life, while air and water pollution deteriorate quality. These effects pose grave threats to coastal areas, ecosystems, human health, and economies. To mitigate, transitioning to renewable energy, sustainable practices, and global cooperation are crucial in addressing carbon footprint-related environmental challenges. Emissions containing sulphur dioxide (SO2) can lead to acid rain, which damages aquatic ecosystems, soils, and buildings.</p>
+            </div>
+            <div class="info-col">
+                <img src="./pics/graph2.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="info" id="I1">
+        <h1 style="font-size: 30px;"> Impact of carbon footprint on forests </h1>
+       
+    </section>
+
+<br>
+<br>
+<section class="Chart" style="width: 90%; margin-left: 40px;">
+    <canvas id="carbonChart"></canvas>
+    <script src="chart-script.js"></script>
+</section>
+<br>
+<section>
+    <div class="container">
+        <div class="slider">
+
+            <input type="radio" class="radio" name="images" id="radio-1" checked>
+            <input type="radio" class="radio" name="images" id="radio-2">
+            <input type="radio" class="radio" name="images" id="radio-3">
+            <input type="radio" class="radio" name="images" id="radio-4">
+    <div class="slide" id="slide1">
+        <img src="./pics/mumbaicity.jpg">
+        <div class="textimg">
+            <h1>MUMBAI</h1>
+            
+            <p>The carbon footprint from vehicles in Mumbai, a densely populated and rapidly urbanizing coastal city, contributes significantly to climate change and environmental challenges. Mumbai is situated along the coast, making it vulnerable to sea level rise due to climate change. Increased global temperatures contribute to the melting of ice sheets and glaciers, which in turn leads to rising sea levels.</p>
+        </div>
+    </div>
+    <div class="slide" id="slide2">
+        <img src="./pics/pune.jpg">
+        <div class="textimg">
+            <h1>PUNE</h1>
+            
+            <p> The Urban Heat Island (UHI) effect is a phenomenon where urban areas experience higher temperatures than their surrounding rural areas due to human activities and modifications to the environment. The concentration of vehicles and infrastructure in urban areas like Pune contributes to the urban heat island effect. Increased vehicle emissions can exacerbate this effect, leading to higher temperatures and heat-related health issues. </p>
+        </div>
+    </div>
+    <div class="slide" id="slide3">
+        <img src="./pics/bangalore.jpg">
+        <div class="textimg">
+            <h1>BANGALORE</h1>
+            
+            <p>High vehicle usage can lead to traffic congestion in urban areas, causing not only inconvenience but also increased fuel consumption and emissions due to idling vehicles. Vehicles produce noise pollution, affecting the well-being of residents and wildlife in urban and suburban areas. Congestion exacerbates air pollution as vehicles emit higher levels of pollutants when idling or operating inefficiently. This includes higher emissions of carbon dioxide (CO2), nitrogen oxides (NOx), and particulate matter (PM).</p>
+        </div>
+    </div>
+    <div class="slide" id="slide4">
+        <img src="./pics/delhi.jpg">
+        <div class="textimg">
+            <h1>DELHI</h1>
+            
+            <p>One of the most immediate and visible impacts of a high carbon footprint in Delhi is poor air quality. The burning of fossil fuels for transportation, industrial activities, and electricity generation releases pollutants such as particulate matter, nitrogen oxides, and volatile organic compounds. These pollutants contribute to smog and can have serious health implications, including respiratory diseases, cardiovascular issues, and decreased overall quality of life for residents</p>
+        </div>
+    </div>
+    <div class="dots">
+        <label for="radio-1" id="label-1"></label>
+        <label for="radio-2" id="label-2"></label>
+        <label for="radio-3" id="label-3"></label>
+        <label for="radio-4" id="label-4"></label>
+    </div>
+</div>
+</div>
+</section>
+    <br>
+    <section class="pages">
+        <h1> OTHER PAGES</h1>
+       
+        <div class="row">
+            <div class="pages-col">
+                <img src="./pics/greenpic.jpg">
+                <h3><a href="home.html">Home</a></h3>
+                <p>General information about carbon footprint </p>
+            </div>
+            <div class="pages-col">
+                <img src="./pics/smoke.jpg" >
+                <h3><a href="page1.html">Causes</a></h3>
+                <p>Causes of carbon footprint due to industries , vehicles and other. </p>
+            </div>
+            <div class="pages-col">
+                <img src="./pics/forest1.jpg">
+                <h3><a href="solution.html">Solution</a></h3>
+                <p>Already implemented and upcoming solutions to reduce greenhouse gase emissions </p>
+            </div>
+        </div>
+      
+    </section>
+
+   
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>CARBON FOOTPRINT</h2>
+            </div>
+            <ul class="footer-links">
+                <li><a href="impacts.html">Home</a></li>
+                <li><a href="Resources.html">resouces</a></li>
+               
+            </ul>
+        </div>
+        <p>&copy; 2023  All  rights reserved.</p>
+    </div>
+
+    <script>
+    const vehicleData = {
+        labels: ['Indo-Burma', 'New Caledonia', 'Sundaland', 'Philippines' ,'Atleantic forest','mountains of southwest china','california floristic province','coastal forests of easter africa','Madagascar and indian ocean islands','Eastern Afromontane'],
+        datasets: [{
+          label: 'Top 10 most Endangered forest',
+          data: [5, 5, 7, 7,8,8,10,10,10,11],
+          backgroundColor: ['rgba(54, 162, 235, 0.5)', 'rgba(75, 192, 192, 0.5)', 'rgba(255, 206, 86, 0.5)', 'rgba(255, 99, 132, 0.5)'],
+          borderColor: ['rgba(54, 162, 235, 1)', 'rgba(75, 192, 192, 1)', 'rgba(255, 206, 86, 1)', 'rgba(255, 99, 132, 1)'],
+          borderWidth: 1
+        }]
+      };
+      
+      // Create and render the bar chart
+      const ctx = document.getElementById('carbonChart').getContext('2d');
+      const carbonChart = new Chart(ctx, {
+        type: 'bar',
+        data: vehicleData,
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true,
+              title: {
+                display: true,
+                text: 'Percentage'
+              }
+            },
+            x: {
+              title: {
+                display: true,
+                text: 'Endangered forest'
+              }
+            }
+          }
+        }
+      });
+    </script>
+      
+      
+    </section>
+      
+      
+      
